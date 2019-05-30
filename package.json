@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-upi-payment",
+        "scope": null,
+        "escapedName": "react-native-upi-payment",
+        "name": "react-native-upi-payment",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\2nd Start\\SrvrSide\\Downloadnpm"
+    ]
+  ],
+  "_from": "react-native-upi-payment",
+  "_hasShrinkwrap": false,
+  "_id": "react-native-upi-payment@1.0.2",
+  "_location": "/react-native-upi-payment",
+  "_nodeVersion": "8.2.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-native-upi-payment_1.0.2_1538066749445_0.990359826152778"
+  },
+  "_npmUser": {
+    "name": "nitish24p",
+    "email": "nitsums@gmail.com"
+  },
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-upi-payment",
+    "scope": null,
+    "escapedName": "react-native-upi-payment",
+    "name": "react-native-upi-payment",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-upi-payment/-/react-native-upi-payment-1.0.2.tgz",
+  "_shasum": "685972e9e28244c930e1cbaa7c799c993a1bcb05",
+  "_shrinkwrap": null,
+  "_spec": "react-native-upi-payment",
+  "_where": "E:\\2nd Start\\SrvrSide\\Downloadnpm",
+  "author": {
+    "name": "Nitish Phanse"
+  },
+  "bugs": {
+    "url": "https://github.com/nitish24p/react-native-upi/issues"
+  },
+  "dependencies": {},
+  "description": "",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-IytUT08Xl0HYEtcjPU7n8RXjYWJYjT4uHpfbL6MEiC74jl06kh4bG9CqBNqt1HTfkA0OXxiPlgYUmaj99XIeMA==",
+    "shasum": "685972e9e28244c930e1cbaa7c799c993a1bcb05",
+    "tarball": "https://registry.npmjs.org/react-native-upi-payment/-/react-native-upi-payment-1.0.2.tgz",
+    "fileCount": 14,
+    "unpackedSize": 211917,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbrQk+CRA9TVsSAnZWagAAFWUP/06gy05ZwvWlJDACDFBF\nBxv2WFCEEegZDz+XtC/+ExAUby5CxtZw78ILdryvOxkXOnpMNDQm+cy2yJn5\nR79KN2GC/l2HgXFTkWgFVW9pdyYZ3JpFI1DczSzJwtBxaQh63BNI52Y69FZC\nRvz6M9l1TY5CC1Nh8JtXal3oVWY+moqT1L35S2dGN+BbysBSsf5DVzntUTaR\nOJvpoU+n23I3tPpATRlU3Nk3bA/r9NjKKHGYTbRo7e45ym0fxNRswZzQBDTo\nhQYqTuH8iixKw3KfGB8btfq9lyfx2JB51HkpHaBQgMlwW8G5vdTTcp+T+9r5\n15pkSxhDcJx0jSNMtdI4yAkZcL4Yl+8gspcXpRA6I4Wa0ajVQD7e8SGAYA66\ncMyIvfMmbZxLAfNn99N0TU7B9H1VwyfhqbhoUmdyQ0SO5G0qlilrfH3r1Xvo\nJWazQk8TNhNtHNlCOWfz+UZ95IyiuqDprjGRCTFga1kEQVG1GdHS0xMi3z7Q\npnuYkIaEs5XfMriujuGXBV44hLGUnT7YDi8y9OgSGJhJJ3DBWFRx+9Fnrgo/\n40m+PmmMMcpTfVXUIP+T0JA82+ClLq0A0z9PD7KbImmFKdattJxdb0ht4TsR\nbk5rF2/6uX/JiijHtA18Oyf3etfMVC2hP1VjEiFUIp0qlxP4K9hb4sDhDfEv\nmTZK\r\n=9TqO\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "440ed6748bf587908a5f2d38cd902dcd420990da",
+  "homepage": "https://github.com/nitish24p/react-native-upi#readme",
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "upi",
+    "payments",
+    "peer to peer"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "nitish24p",
+      "email": "nitsums@gmail.com"
+    }
+  ],
+  "name": "react-native-upi-payment",
+  "optionalDependencies": {},
+  "readme": "# react-native-upi-payment\n\n\n<img width=\"778\" alt=\"art\" src=\"https://user-images.githubusercontent.com/13037986/46161228-a1369700-c2a2-11e8-9b9d-d0c40a3e0f38.png\">\n\n[react-native-upi](https://www.npmjs.com/package/react-native-upi-payment) is a tiny plugin to integrate the UPI payment interface made by [NPCI](https://www.bhimupi.org.in/) from your react native apps. This plugin allows you to enable peer to peer payments via UPI in your react native apps. Linking specs have been followed as per [this](https://www.npci.org.in/sites/all/themes/npcl/images/PDF/UPI_Linking_Specs_ver_1.5.1.pdf) doc\n\n\n\n## Installation\n```bash\nnpm install react-native-upi-payment\n```\n\nor \n```bash\nyarn add react-native-upi-payment\n```\n\n### Android\n#### Automatic Installation\n```\nreact-native run link\n```\n\n#### Manual Installation\nOpen `android/settings.gradle` add the following\n```\ninclude ':react-native-upi'\nproject(':react-native-upi').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-upi/android')\n\n```\n\nOpen `android/build.gradle` add the following in the dependencies section\n```\ndependencies {\n    compile project(':react-native-upi')\n}\n```\n\nOpen `MainApplication.java`\n```java\n// Other imports\nimport com.upi.payment.UpiPaymentPackage;\n\n  // Add this in the Main Application Class\n  @Override\n  protected List<ReactPackage> getPackages() {\n    return Arrays.<ReactPackage>asList(\n       //... Other packages\n          new UpiPaymentPackage() // <- Add this line\n    );\n  }\n```\n\n\n\n\n## Usage\n\n```javascript\nRNUpiPayment.initializePayment({\n  vpa: 'john@upi', // or can be john@ybl or mobileNo@upi\n  payeeName: 'John Doe',\n  amount: '1',\n  transactionRef: 'aasf-332-aoei-fn'\n}, successCallback, failureCallback);\n\n```\n\n## Config docs\n```javascript\n{\n  /*\n  * REQUIRED\n  * vpa is the address of the payee given to you\n  * by your bank\n  */\n  vpa: 'somehandle@upi',\n\n  /*\n  * REQUIRED\n  * payeeName is the name of the payee you want\n  * to make a payment too. Some upi apps need this\n  * hence it is a required field\n  */\n  payeeName: 'Payee name',\n\n  /*\n  * REQUIRED\n  * This is a reference created by you / your server\n  * which can help you identify this transaction\n  * The UPI spec doesnt mandate this but its a good to have\n  */\n  transactionRef: 'some-hash-string',\n\n  /*\n  * REQUIRED\n  * The actual amount to be transferred\n  */\n  amount: '200',\n\n  /*\n  * OPTIONAL\n  * Transactional message to be shown in upi apps\n  */\n  transactionNote: 'for food'\n}\n```\n\n## Callbacks \n```javascript\nfunction successCallback(data) {\n  // do whatever with the data\n}\n\nfunction failureCallback(data) {\n  // do whatever with the data\n}\n\n```\n\n## Responses\n\nSUCCESS CASE\n```javascript\n{\n/**\n* SUCCESS STATUS\n* */\nStatus: \"SUCCESS\",\n/**\n* Transaction Id of bank to which upi has been initiated\n* */\ntxnId: \"AXId8c71205eb7d459889bb7018bdf2c056\", \n/**\n* 00 response code, for success\n* transaction is successful money has been debited\n* */\nresponseCode: \"00\",\n/**\n* Transaction reference stated in init obect\n* */\ntxnRef: \"aasf-332-aoeifn\"\n\n}\n```\nFAILURE CASES\n```javascript\n{\n  /**\n   * Status Sent on transaction\n   * If the user presses back or closes app\n   * */\n  status: \"FAILURE\",\n\n  /**\n  * If the user presses back or closes app\n  * */\n  message: \"No action taken\"\n} // No action\n```\n```javascript\n{\n  /**\n  * FAILURE STATUS\n  * */\n  Status: \"FAILURE\",\n  /**\n  * Transaction Id of bank to which upi has been initiated\n  * */\n  txnId: \"AXIa463c7ca81a24e168df5ac9c1359c38c\", \n  /**\n  * Non 0 response code,\n  * If the user enters the wrong pin\n  * */\n  responseCode: \"ZM\",\n  /**\n  * Transaction reference stated in init obect\n  * */\n  txnRef: \"aasf-332-aoeifn\"\n  \n  }\n```\n\n\n\n",
+  "readmeFilename": "README.md",
+  "scripts": {},
+  "version": "1.0.2"
+}
