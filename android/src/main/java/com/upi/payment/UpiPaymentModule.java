@@ -44,7 +44,7 @@ public class UpiPaymentModule extends ReactContextBaseJavaModule implements Acti
 
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setClassName("in.org.npci.upiapp","in.org.npci.upiapp.HomeActivity"); //Only to do transaction via BHIM
+        //intent.setClassName("in.org.npci.upiapp","in.org.npci.upiapp.HomeActivity"); //Only to do transaction via BHIM, Added by Chandrajyoti
         intent.setData(Uri.parse(config.getString("upiString")));
         Context currentContext = getCurrentActivity().getApplicationContext();
         if (intent != null) {
@@ -107,6 +107,15 @@ public class UpiPaymentModule extends ReactContextBaseJavaModule implements Acti
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
         intent.setClassName("in.org.npci.upiapp","in.org.npci.upiapp.HomeActivity");
         List<ResolveInfo> list = getCurrentActivity().getApplicationContext().getPackageManager().queryIntentActivities(intent,PackageManager.MATCH_DEFAULT_ONLY);
+        callaback.invoke(list.size() > 0);
+    }
+		
+    @ReactMethod
+    public void hasUpiApp(Callback callaback) {
+        Uri uri = Uri.parse("upi://pay?pa=payee_address&pn=payee_name&tn=transaction_name&am=1&cu=INR&url=url");//url with http or https
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        Intent chooser = Intent.createChooser(intent, "Choose App");
+        List<ResolveInfo> list = getCurrentActivity().getApplicationContext().getPackageManager().queryIntentActivities(chooser,PackageManager.MATCH_DEFAULT_ONLY);
         callaback.invoke(list.size() > 0);
     }
 
