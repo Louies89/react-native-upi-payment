@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
+// import android.util.Log;   //added by Chandrajyoti for debug
 
 import com.facebook.react.bridge.ActivityEventListener;
 import com.facebook.react.bridge.Callback;
@@ -80,16 +81,20 @@ public class UpiPaymentModule extends ReactContextBaseJavaModule implements Acti
 
             if (requestCode == REQUEST_CODE) {
                 Bundle bundle = data.getExtras();
-                if (bundle.getString("response") == "SUCCESS") {
-                    responseData.putString("status", data.getStringExtra("Status"));
-                    responseData.putString("message", bundle.getString("response"));
-                    this.successHandler.invoke(responseData);
+		//response = "txnId=undefined&responseCode=00&ApprovalRefNo=undefined&Status=SUCCESS&txnRef=SRCN-1918-CEBPR8TBCANB0K"
+		//Below codes are commented by Chandrajyoti
+                //if (bundle.getString("response") == "SUCCESS") {
+                //    responseData.putString("status", data.getStringExtra("Status"));
+                //    responseData.putString("message", bundle.getString("response"));
+                //    this.successHandler.invoke(responseData);
 
-                } else {
-                    responseData.putString("status", data.getStringExtra("Status"));
-                    responseData.putString("message", bundle.getString("response"));
-                    this.failureHandler.invoke(responseData);
-                }
+                //} else {
+                //    responseData.putString("status", data.getStringExtra("Status"));
+                //    responseData.putString("message", bundle.getString("response"));
+                //    this.failureHandler.invoke(responseData);
+                //}				
+	        responseData.putString("message", bundle.getString("response"));
+		this.successHandler.invoke(responseData);
             } else {
                 responseData.putString("message", "Request Code Mismatch");
                 responseData.putString("status", FAILURE);
